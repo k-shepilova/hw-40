@@ -1,0 +1,18 @@
+.usersList {
+  margin: 20px;
+}
+
+.userItem {
+  background: #dee0b0;
+  display: flex;
+  padding: 10px;
+
+  &:nth-child(even) {
+    background: #bcf8e3;
+  }
+}
+
+.name {
+  flex: 1 1 80%;
+  padding-right: 20px;
+}
